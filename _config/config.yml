@@ -1,0 +1,11 @@
+---
+Name: modularpage
+---
+# For example, add this to Page class
+Page:
+  extensions:
+    - 'ModularPageExtension'
+# must be on all pages
+SiteTree:
+  extensions:
+    - 'SiteTreeSearchExtension'
